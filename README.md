@@ -1,6 +1,5 @@
 # task-list
 
-style="max-width:100%;">
 A tasks creator with dracula theme</br>
 Just practicing with js vanilla a little bit. 
 
