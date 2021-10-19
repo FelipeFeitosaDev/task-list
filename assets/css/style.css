@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500&display=swap');
+
+:root {
+  --bg-color-primary: #44475A;
+  --bg-color-secondary: #282A36;
+  --txt-color:#F8F8F2;
+  --btn-color-primary:#50FA7B;
+  --btn-color-secondary: #FF79C6;  
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg-color-primary);
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 340px;
+  margin: 50px auto;
+  background: var(--bg-color-secondary);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1{
+  margin-top: 20px;
+  color: var(--btn-color-primary);   
+}
+
+
+button{
+  cursor: pointer;
+  margin-right: 10px;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: var(--btn-color-primary);
+  color: black;
+  border-radius: 10px;
+}
+
+button:hover{
+  color: white;
+  background-color: var(--btn-color-secondary);
+}
+
+input{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: var(--bg-color-primary);
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+    color: var(--txt-color);
+    font-size: 16px;
+   font-weight: 500;
+   font-family: 'Rajdhani';
+   outline: none;
+
+}
+
+ul{
+  list-style: none;
+  margin-left: 0;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+    color: var(--txt-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.delete{
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  border-radius: 5px;
+}
+
+span{
+  margin-left: 10px;
+}
