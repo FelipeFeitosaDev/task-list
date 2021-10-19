@@ -54,5 +54,29 @@ function getStorage(){
     }
 }
 
+// 3. adding event listeners: 
+
+inputElement.addEventListener('keypress', (e)=>{
+    if(!inputElement.value)return
+    if(e.keyCode === 13){
+        createTask(inputElement.value);
+        clearInput()
+    }
+})
+
+addBtn.addEventListener('click', (e)=>{
+    if(!inputElement.value)return
+    createTask(inputElement.value);
+    
+})
+
+document.addEventListener('click', (e)=>{
+    const clicked = e.target;
+    if(clicked.classList.contains('delete')){
+        clicked.parentElement.remove();
+        saveStorage();
+    }
+})
+
 }
 escope();
