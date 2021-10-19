@@ -15,13 +15,12 @@ Just practicing with js vanilla a little bit.
 
 ## Features
 
-Basically it's a timer with thres buttons (start,pause and reset):
+it's a basic task creator with local storage. 
+you can add your tasks and close and the tasks still saved.
 
 - the buttons gets pink when mouse over.
-- the timer gets pink when pause. 
-- condicionals with one event.listener. 
-- object Date with localeTimeString method.
-- setInterval and clearInterval. 
+- event listeners
+- localStorage api
 
 ## How to use
 
